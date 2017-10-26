@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.android.miwok.MainActivity"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <Button
+        android:id="@+id/numbers"
+        style="@style/Buttons"
+        android:background="#F57C00"
+        android:text="Numbers"
+        />
+    <Button
+        android:id="@+id/familyMembers"
+        style="@style/Buttons"
+        android:background="#388E3C"
+        android:text="Family Members"
+        />
+    <Button
+        android:id="@+id/colors"
+        style="@style/Buttons"
+        android:background="#7B1FA2"
+        android:text="Colors"
+        />
+    <Button
+        android:id="@+id/phrases"
+        style="@style/Buttons"
+        android:background="#1976D2"
+        android:text="Phrases"
+        />
+
+
+</LinearLayout>
+
